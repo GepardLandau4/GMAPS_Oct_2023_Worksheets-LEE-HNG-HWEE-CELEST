@@ -64,7 +64,7 @@ public class Ball2D : MonoBehaviour
     {
         //set the x and y values of the displacement of the ball to be equal to the x and y values of its velocity muyltiplied by time
         //as displacement = 0.5 * (initial velocity + final velocity) * time, did not divide velocity and time by 2 as when i tried that,
-        //the ball seemed to move slower than the example shown in the worksheet
+        //the ball seemed to move slower than the example shown in the worksheet, although i am not sure why dividing by 2 is not needed
         float displacementX = Velocity.x * deltaTime;
         float displacementY = Velocity.y * deltaTime;
 
